@@ -19,4 +19,9 @@ PlanetCard.propTypes = {
   planetImage: PropTypes.string,
 };
 
+PlanetCard.defaultProps = {
+  planetName: PropTypes.string,
+  planetImage: PropTypes.string,
+};
+
 export default PlanetCard;

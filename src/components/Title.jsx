@@ -14,4 +14,8 @@ Title.propTypes = {
   headline: PropTypes.string,
 };
 
+Title.defaultProps = {
+  headline: 'Missões',
+};
+
 export default Title;
